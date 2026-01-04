@@ -45,7 +45,7 @@ menu = st.sidebar.radio("",
      "3. Superior Approval", "4. Result & Email"])
 
 st.sidebar.markdown("---")
-st.sidebar.caption("© 2024 PT Komatsu Indonesia - AfterMarket Division")
+st.sidebar.caption("© 2026 PT Komatsu Indonesia - AfterMarket Division")
 
 # ================= MENU: HOME (ICONS UPDATED) =================
 if menu == "🏠 Home":
