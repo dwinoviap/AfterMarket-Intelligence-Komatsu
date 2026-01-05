@@ -106,7 +106,7 @@ elif menu == "📊 Dashboard":
     
     c1, c2 = st.columns(2)
     with c1:
-        st.subheader("Sales by Customer")
+        st.subheader("Submitted Quotation by Customer")
         if not all_quotes.empty:
             chart_data = all_quotes.groupby("customer_name")["sales_price"].sum()
             st.bar_chart(chart_data, color="#2962FF") 
