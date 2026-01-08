@@ -44,7 +44,7 @@ menu = st.sidebar.radio("",
      "3. Superior Approval", "4. Result & Email"])
 
 st.sidebar.markdown("---")
-st.sidebar.caption("© 2024 PT Komatsu Indonesia - AfterMarket Division")
+st.sidebar.caption("© 2026 PT Komatsu Indonesia - AfterMarket Division")
 
 # ================= MENU: HOME =================
 if menu == "🏠 Home":
@@ -91,7 +91,7 @@ elif menu == "📊 Dashboard":
     st.markdown("---")
     c1, c2 = st.columns(2)
     with c1:
-        st.subheader("Sales by Customer")
+        st.subheader("Inquiry by Customer")
         if not all_quotes.empty:
             chart_data = all_quotes.groupby("customer_name")["sales_price"].sum()
             st.bar_chart(chart_data, color="#2962FF") 
